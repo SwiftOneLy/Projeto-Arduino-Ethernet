@@ -1,3 +1,6 @@
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Arduino](https://img.shields.io/badge/Platform-Arduino-blue?style=for-the-badge&logo=arduino&logoColor=white)
+
 # 📡 Projeto Arduino Ethernet – Comunicação em Rede Local
 
 ## 📖 Descrição
