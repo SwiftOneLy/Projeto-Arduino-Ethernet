@@ -1,0 +1,51 @@
+1. Conectar o hardware
+
+Conecte o Arduino ao módulo Arduino Ethernet.
+
+Utilize um cabo de rede (RJ45) para conectar o Arduino Ethernet ao roteador.
+
+Certifique-se de que todos os dispositivos estão ligados e funcionando corretamente.
+
+2. Reservar um endereço IP no roteador
+
+Acesse o painel de administração do roteador (geralmente via navegador, ex: 192.168.0.1 ou 192.168.1.1).
+
+Localize a seção de DHCP ou Reserva de IP.
+
+Identifique o Arduino pelo endereço MAC do módulo Ethernet.
+
+Configure uma reserva de IP (DHCP estático) para o Arduino, garantindo que ele sempre receba o mesmo IP na rede.
+
+Salve as configurações e, se necessário, reinicie o roteador.
+
+3. Conectar o celular à rede
+
+Conecte o celular à rede Wi-Fi do mesmo roteador.
+
+Verifique se o celular recebeu um IP válido (nas configurações de rede Wi-Fi).
+
+4. Testar a comunicação (ping)
+
+Utilize um aplicativo de terminal ou rede no celular (ex: PingTools, Termux, etc.).
+
+Execute um comando de ping para o IP reservado do Arduino:
+
+ping 192.168.X.X
+
+(Substitua pelo IP configurado no roteador)
+
+Se houver resposta, a comunicação entre o celular e o Arduino está funcionando corretamente.
+
+5. Validação e troubleshooting
+
+Se o ping não funcionar:
+
+Verifique cabos e conexões físicas.
+
+Confirme se o IP reservado está correto.
+
+Certifique-se de que o Arduino está devidamente programado com o mesmo IP.
+
+Reinicie o Arduino e o roteador.
+
+Verifique se não há bloqueios de firewall na rede.
