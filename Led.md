@@ -1,4 +1,4 @@
-```
+```c
 /**
   Arduino Internet das Buxas
   @authors Gabriel A. Felippe C. Reginaldo S.
