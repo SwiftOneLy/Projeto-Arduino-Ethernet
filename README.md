@@ -56,7 +56,7 @@ O Arduino é configurado para obter um endereço IP automaticamente (DHCP) e dis
 ```cpp
 /**
  Arduino Ethernet
- @author Gabriel A., Felippe Buxa e Reginaldo Soares
+ @author Gabriel A., Felippe C., e Reginaldo S.
 */
 
 // OBS: Pinos utilizados são os 4, 10, 11, 12 e 13.
