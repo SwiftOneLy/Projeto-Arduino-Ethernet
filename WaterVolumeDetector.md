@@ -1,4 +1,4 @@
-```
+```c
 /**
  * @authors Gabriel A.,
  * Felippe C., Reginaldo S */
